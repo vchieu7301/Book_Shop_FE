@@ -35,6 +35,7 @@ const LoginForm = () => {
   };
   
   const handleSubmit = (e) =>{
+    console.log(123);
 
     e.preventDefault();
 
@@ -64,6 +65,7 @@ const LoginForm = () => {
   const LoginForm = (
 
   <form onSubmit={handleSubmit}>
+
         
       <div className='form'>
 
